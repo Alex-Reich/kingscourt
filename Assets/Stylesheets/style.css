@@ -63,7 +63,8 @@
     padding-top: 2vh;
 }
 .whiteicon {
-    color: white;
+    color: #c4ced3;
     font-size: 3rem;
     margin: 5px 1rem;
+    text-align: center;
 }
