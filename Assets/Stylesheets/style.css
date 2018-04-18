@@ -1,0 +1,69 @@
+/* * {
+    outline: 2px solid black;
+} */
+.firstrow {
+    height: 40vh;
+    background-image: url("/Assets/Images/kingsaltlogo.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #502D7F;
+}
+.secondrow {
+    background-color: #c4ced3; 
+    height: 45vh;
+}
+.thirdrow{
+    background-color: #502D7F;
+    height: 40vh;
+}
+.map {
+    height: 20vh;
+
+}
+.footer {
+    background-color: black;
+    height: 10vh;
+}
+.round-button {
+    border-radius: 10%;
+    margin-left: 45px;
+}
+.textshadow {
+    color: #c4ced3;
+    text-shadow: 1px 1px 4px black;    
+    font-size: 17px;
+}
+.topspace {
+    padding-top: 10vh;
+}
+.quote {
+    margin: auto ;
+}
+.iconsize {
+    font-size: 10rem;
+    padding: 5px 0px 0px 0px;
+    margin-left: 4rem;
+}
+.iconsize:hover {
+    color: #502D7F;
+}
+
+.bigtext {
+    font-size: 2rem;
+    padding: 5px;
+}
+.outline {
+    outline: 2pt solid black;
+}
+.textcenter {
+    text-align: center;
+}
+.hatroom {
+    padding-top: 2vh;
+}
+.whiteicon {
+    color: white;
+    font-size: 3rem;
+    margin: 5px 1rem;
+}
