@@ -11,9 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
     <link rel="stylesheet" href="/Assets/Stylesheets/style.css">
-
-    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
-
+    <script src="/Assets/Javascript/map.js"></script>
 </head>
 
 <body>
@@ -42,7 +40,7 @@
                 <p>-Grant Napear</p>
             </div>
         </div>
-        <div class="row secondrow">
+        <div class="row secondrow textcenter">
             <div class="col outline">
                 <i class="fas fa-blind iconsize"></i>
                 <h1>Vlade Tracker</h1>
@@ -75,8 +73,8 @@
                         <small id="emailHelp" class="form-text text-muted">If you can read this you're too close!</small>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Favorite memory</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <label for="exampleFormControlTextarea1">Favorite Memory</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4">Memory goes here</textarea>
                     </div>
                     <div class="form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -86,16 +84,15 @@
                 </form>
             </div>
         </div>
-        <div class="row map">
-            <div class="col">
-                <div class="gmap" style="width:auto;height:auto">
-                    My map will go here
-                </div>
+        <div class="row gmap">
+            <div class="col nopad">
+                <div id="map" style="height:40vh; background:#502D7F"></div>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSlIxuObZEJqr9205RXV9j63ulKHQWrFE&callback=myMap"></script>
             </div>
         </div>
         <div class="row footer">
             <div class="col textcenter">
-                <i class="fab fa-facebook whiteicon"></i>
+                <i class="fab fa-facebook whiteicon "></i>
                 <i class="fab fa-google-plus-square whiteicon"></i>
                 <i class="fab fa-twitter-square whiteicon"></i>
                 <i class="fab fa-instagram whiteicon"></i>
