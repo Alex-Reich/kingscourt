@@ -1,31 +1,30 @@
 .firstrow {
-    height: 40vh;
+    min-height: 40vh;
     background-image: url("/Assets/Images/kingsaltlogo.png");
-    background-size: auto;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #502D7F;
 }
 .secondrow {
     background-color: #c4ced3; 
-    height: 45vh;
+    min-height: 45vh;
 }
 .thirdrow{
     background-color: #502D7F;
-    height: 48vh;
+    min-height: 48vh;
     border-bottom: 2pt solid black;
 }
 .gmap {
-    height: 40vh;
+    min-height: 40vh;
 
 }
 .footer {
     background-color: black;
-    height: 10vh;
+    min-height: 10vh;
 }
 .round-button {
     border-radius: 10%;
-    margin-left: 45px;
 }
 .textshadow {
     color: #c4ced3;
@@ -34,9 +33,6 @@
 }
 .topspace {
     padding-top: 10vh;
-}
-.quote {
-    margin: auto ;
 }
 .iconsize {
     font-size: 10rem;
